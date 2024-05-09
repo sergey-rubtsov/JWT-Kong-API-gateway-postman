@@ -1,4 +1,4 @@
-# JWT-Kong-API-gateway-postman
+# Automatic auth/JWT token generation in Postman using Postman only.
 
 I made this repository to share a pre-request script for Postman to generate a Kong API Gateway JWT token and write it to the Postman global variable 'ACCESS_TOKEN' for further authorization.
 
