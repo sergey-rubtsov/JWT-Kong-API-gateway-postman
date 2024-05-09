@@ -4,6 +4,8 @@ I made this repository to share a pre-request script for Postman to generate a K
 
 This variable can then be used in the request header for authorization.
 
+It works without Node.js and uses only Postman itself.
+
 To use this script in Postman, you first need to cache third-party librariy *jsrsasign*.
 To do this, you need to add this line on tests tab script:
 
