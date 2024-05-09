@@ -15,7 +15,7 @@ GET https://kjur.github.io/jsrsasign/jsrsasign-latest-all-min.js
 
 After that add this code in Pre request Script tab and set Bearer Token authorization value as {{ACCESS_TOKEN}} on Authorization tab:
 
-'''
+```
 var navigator = {};
 var window = {};
 eval(pm.globals.get("jsrsasign-js")); //need to be cached before (read README first)
@@ -88,4 +88,4 @@ pm.sendRequest(postRequest, function (err, res) {
     var responseJson = res.json();
     pm.environment.set('ACCESS_TOKEN', responseJson['access_token']);
 });
-'''
+```
